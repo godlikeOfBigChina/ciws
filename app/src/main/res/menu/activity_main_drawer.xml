@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/chuck_in"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="车辆进入" />
+        <item
+            android:id="@+id/chuck_unload"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="车辆卸货" />
+        <item
+            android:id="@+id/row_move"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="库内移动" />
+        <item
+            android:id="@+id/single_move"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="单块移动" />
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/location_query"
+                android:icon="@drawable/ic_menu_share"
+                android:title="质检位置" />
+            <item
+                android:id="@+id/check"
+                android:icon="@drawable/ic_menu_send"
+                android:title= "现场盘库" />
+        </menu>
+    </item>
+
+</menu>
